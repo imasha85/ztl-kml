@@ -49,7 +49,7 @@ function init () {
         e.target.disabled = true;
     });
     kmlButton.click(function (e) {
-        ymaps.geoXml.load('geoObjects.kml')
+        ymaps.geoXml.load('ZTL Italia.kml')
             .then(onGeoXmlLoad);
         e.target.disabled = true;
     });
